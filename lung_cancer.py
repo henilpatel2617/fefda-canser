@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open(r"C:/lung_cancer/lung_cancer.sav", "rb"))
+loaded_model = pickle.load(open("lung_cancer.sav", "rb"))
 
 # Encoders for dropdown fields
 gender_dict = {'Male': 0, 'Female': 1}
